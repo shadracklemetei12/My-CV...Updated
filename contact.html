@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Shadrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="contact">
+        <h2>Contact Me</h2>
+
+        <form action="https://formspree.io/f/xjgzjqyq" method="POST">
+
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="your@email.com" required>
+
+            <label>Project Type</label>
+            <select name="project">
+                <option>Website Development</option>
+                <option>Website Design</option>
+                <option>Bug Fix</option>
+                <option>Collaboration</option>
+            </select>
+
+            <label>Budget</label>
+            <input type="text" name="budget" placeholder="Estimated budget">
+
+            <label>Message</label>
+            <textarea name="message" rows="5" placeholder="Tell me about your project"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </section>
+</body>
+
+</html>
